@@ -31,6 +31,14 @@ header div nav ul li a:hover{
     font-size: 18px;
 }
 
+.arm{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.arm:hover > li{ 
+    display: block;
+}
 
 
 
@@ -251,3 +259,9 @@ header div nav ul li a:hover{
     }
 }
 
+
+@media screen and (max-width: 768px) {
+    .containerr_metal > div {
+        grid-column: 1/-1;
+    }
+}
