@@ -1,8 +1,7 @@
 
 
 body{
-    background: url(/fotos/fondocx.jpg);
-    background-attachment: fixed;
+    background-image: url(../fotos/fondocx.jpg);
     background-size: cover;
 }
 
