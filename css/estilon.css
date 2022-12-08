@@ -1,0 +1,21 @@
+body {
+  background: url(/fotos/fondocx.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+  body header div nav ul li a:hover {
+    font-weight: bold; }
+  body header .div_logo {
+    text-align: center;
+    background-color: black;
+    background-image: url(../fotos/1516578954.jpg); }
+    body header .div_logo .logo {
+      margin-bottom: 10px;
+      margin-top: 10px; }
+  body header .menu {
+    background-color: rgba(248, 248, 248, 0.11);
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+    border: solid rgba(0, 0, 0, 0.048);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px); }
